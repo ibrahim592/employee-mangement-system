@@ -2,25 +2,24 @@ import React from 'react'
 
 const TaskList = () => {
   return (
-    <div className='flex justify-between gap-4 p-4'>
-      <div className='w-[45%] bg-red-400 p-7 rounded-lg text-white flex flex-col items-center'>
+    <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 p-4'>
+      <div className='bg-red-400 p-7 rounded-lg flex flex-col items-center'>
         <h2 className='text-2xl font-semibold'>0</h2>
-        <h3 className='text-xl font-medium'>New Task</h3>
+        <h3 className='text-xl font-semibold'>New Task</h3>
       </div>
-      <div className='w-[45%] bg-blue-400 p-7 rounded-lg text-white flex flex-col items-center'>
+      <div className='bg-blue-400 p-7 rounded-lg flex flex-col items-center'>
         <h2 className='text-2xl font-semibold'>0</h2>
-        <h3 className='text-xl font-medium'>New Task</h3>
+        <h3 className='text-xl font-semibold'>New Task</h3>
       </div>
-      <div className='w-[45%] bg-yellow-600 p-7 rounded-lg text-white flex flex-col items-center'>
+      <div className='bg-yellow-600 p-7 rounded-lg flex flex-col items-center'>
         <h2 className='text-2xl font-semibold'>0</h2>
-        <h3 className='text-xl font-medium'>New Task</h3>
+        <h3 className='text-xl font-semibold'>New Task</h3>
       </div>
-      <div className='w-[45%] bg-green-400 p-7 rounded-lg text-white flex flex-col items-center'>
+      <div className='bg-green-400 p-7 rounded-lg flex flex-col items-center'>
         <h2 className='text-2xl font-semibold'>0</h2>
-        <h3 className='text-xl font-medium'>New Task</h3>
+        <h3 className='text-xl font-semibold'>New Task</h3>
       </div>
     </div>
-    
   )
 }
 
